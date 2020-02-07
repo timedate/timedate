@@ -1,0 +1,94 @@
+/*
+Design and development by Evan
+*/
+
+
+
+
+::-moz-selection { background: #EAEAEA; }
+::selection { background: #EAEAEA; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  color:#FFFFFF;
+  background: linear-gradient(-45deg, #555555, #333333, #000000,#333333);
+	background-size: 400% 400%;
+	animation: gradient 60s ease infinite;
+	font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
+  width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+	padding-top: 80px;
+  font-weight:bolder;
+  line-height: 1.5;
+}
+
+
+
+.form-control {
+  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
+  display: Block;
+  margin-top: 12px;
+  width: 280px;
+  height: 46px;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color:#FFFFFF;
+  padding-left: 12px;
+  padding-bottom: 2px;
+  font-size: 1rem;
+}
+
+
+
+.card-text{
+  display: block;
+  font-family:"Roboto Mono","SF Mono", "PT Mono",-apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+header{
+	width:100%;
+	height: auto;
+}
+
+
+h3{
+  font-size: 2rem;
+  line-height:1.2;
+  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: Bold;
+  font-style: normal;
+  max-width:860px;
+  margin-right:.25em;
+  display:inline-block;
+  position: relative;
+  margin-top: 20px;
+}
+
+h5{
+  color:#555555;
+  font-size: 1rem;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
