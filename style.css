@@ -18,9 +18,7 @@ Design and development by Evan
 
 body {
   color:#FFFFFF;
-  background: linear-gradient(-45deg, #555555, #333333, #000000,#333333);
-	background-size: 400% 400%;
-	animation: gradient 60s ease infinite;
+  background: #000000;
 	font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue",Helvetica,Arial,sans-serif;
   width: 75%;
 	margin-left: auto;
@@ -40,7 +38,7 @@ body {
   margin-top: 12px;
   width: 280px;
   height: 46px;
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.12);
   border-radius: 8px;
   border: none;
   outline: none;
@@ -80,15 +78,3 @@ h5{
   color:#555555;
   font-size: 1rem;
 }
-
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
